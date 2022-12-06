@@ -8,7 +8,6 @@ using TMPro;
 
 public class Pou : MonoBehaviour
 {
-    // Start is called before the first frame update
     // Movement speed
     public float speed =1 ;
 
@@ -22,6 +21,7 @@ public class Pou : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI lifeText;
 
+    Vector2 pos;
     private void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
@@ -31,9 +31,17 @@ public class Pou : MonoBehaviour
     private void UpdateLife(int fault)
     {
         life -= fault;
-        if(life < 0)
+        if(life == 0)
         {
-            Debug.Log("GAME OVER");
+            //Destroy(gameObject);
+
+            pos = new Vector2(this.transform.position.x, -this.transform.position.y);
+            Debug.Log("pos" + pos);
+            SceneManager.LoadScene("Menu");
+            //Time.timeScale = 0;
+
+
+
         }
         lifeText.text = "Life: " + life + "/5";
 
@@ -43,13 +51,13 @@ public class Pou : MonoBehaviour
 
 
     {
-        Debug.Log("Detected collision between " + gameObject.name + " and " + collisionInfo.gameObject.name);
+        //Debug.Log("Detected collision between " + gameObject.name + " and " + collisionInfo.gameObject.name);
         if (collisionInfo.gameObject.name.Contains("Cloud"))
         {
 
             UpdateLife(1);
             //collisionInfo.gameObject.SetActive(false);
-            collisionInfo.gameObject.transform.position = new Vector2(Random.Range(222f,-222f),Random.Range(-40f,177f));
+            //collisionInfo.gameObject.transform.position = new Vector2(Random.Range(-226f,220f),-108f );
 
 
         }
@@ -57,14 +65,19 @@ public class Pou : MonoBehaviour
         {
 
             UpdateScore(1);
-            //Destroy(collisionInfo.gameObject);
-            collisionInfo.gameObject.SetActive(false);
+            Destroy(collisionInfo.gameObject);
+            //collisionInfo.gameObject.transform.position = new Vector2(Random.Range(200f, -199f), Random.Range(-30f, 150f));
+
         }
 
 
     }
+  
+
+
     void Start()
     {
+        this.transform.position = pos;
         UpdateScore(0);
         UpdateLife(0);
 
@@ -75,7 +88,15 @@ public class Pou : MonoBehaviour
   
     void Update()
     {
+        if(this.transform.position.x < -248)
+        {
+            this.transform.position = new Vector2( 250,this.transform.position.y);
+        }
+        if(this.transform.position.x > 250)
+        {
+            this.transform.position = new Vector2(-248, this.transform.position.y);
 
+        }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.left * force);
