@@ -1,0 +1,442 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2486; Version 2009; 64bit' Language: 'en' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Zanis/Documents/Game/finalProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57178
+Successfully changed project path to: C:/Users/Zanis/Documents/Game/finalProject
+C:/Users/Zanis/Documents/Game/finalProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 61.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zanis/Documents/Game/finalProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 610M (ID=0x1058)
+    Vendor:   
+    VRAM:     2000 MB
+    Driver:   23.21.13.8857
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003543 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1849ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1991ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1601ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.1 MB.
+System memory in use after: 67.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 5.356100 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.153400 ms MarkObjects: 4.816400 ms  DeleteObjects: 0.129800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(d4ae6fe946dcb96448ae6d70987fae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d4ae6fe946dcb96448ae6d70987fae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73adf723f7efc02ba781e5394d846b6') in 0.010216 seconds 
+  Import took 0.015893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787221 seconds.
+  path: Assets/Scenes/New Folder
+  artifactKey: Guid(bece572058ea06d4399a386247fbcf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Folder using Guid(bece572058ea06d4399a386247fbcf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b52191eb3ff0512211788b4255a8e1') in 0.005272 seconds 
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.364798 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004598 seconds 
+  Import took 0.010070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.790147 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(57ba597be795aec46aa9f36d086a391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(57ba597be795aec46aa9f36d086a391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac44418e9e8c44b90907d2e1a1eb21f') in 0.008742 seconds 
+  Import took 0.015152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.545540 seconds.
+  path: Assets/Characters/girl/girl.obj
+  artifactKey: Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl.obj using Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281da9c37543c475cba985e2678d19c7') in 0.775720 seconds 
+  Import took 0.780761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Characters/girl/girl_packed1_diffuse.png
+  artifactKey: Guid(cbd43ef12498cf348be6a5f6103b5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed1_diffuse.png using Guid(cbd43ef12498cf348be6a5f6103b5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46d68713cae1543b9ec14a143f48cb2') in 0.059426 seconds 
+  Import took 0.063815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Characters/girl/girl_packed0_specular.png
+  artifactKey: Guid(144ff837de4c8f54e8fd9f1986e6ab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed0_specular.png using Guid(144ff837de4c8f54e8fd9f1986e6ab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c38d07b374ab80bb982dc6412aafe7b') in 0.017885 seconds 
+  Import took 0.022550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Characters/girl/girl_packed1_normal.png
+  artifactKey: Guid(29723ea940e555444807613b65bd40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed1_normal.png using Guid(29723ea940e555444807613b65bd40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bdc6719207edfa2193adb6b8a52e55') in 0.017400 seconds 
+  Import took 0.023937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Characters/girl/girl_packed0_diffuse.png
+  artifactKey: Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed0_diffuse.png using Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852ac04547d4c5a30e03724333b4204e') in 0.021012 seconds 
+  Import took 0.026848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Characters/girl/girl_packed1_gloss.png
+  artifactKey: Guid(291495532bb80bc4cbf95404c2086b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed1_gloss.png using Guid(291495532bb80bc4cbf95404c2086b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f881ba01400c3f494e0c3ef02d1e2590') in 0.022454 seconds 
+  Import took 0.027643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Characters/girl/girl_packed0_gloss.png
+  artifactKey: Guid(fce362719136e0b4092eb9f9c81f5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed0_gloss.png using Guid(fce362719136e0b4092eb9f9c81f5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d0e43badc278c500f158d577ab7428') in 0.021839 seconds 
+  Import took 0.027631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Characters/girl/girl_packed1_specular.png
+  artifactKey: Guid(464c00c1ad9169a43b2f56003aef86fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed1_specular.png using Guid(464c00c1ad9169a43b2f56003aef86fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5a54fb8a3bfe8885390dfd583ab586') in 0.020491 seconds 
+  Import took 0.026086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Characters/girl/girl_packed0_normal.png
+  artifactKey: Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl_packed0_normal.png using Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2707b4e8916a00b94a4e154bfae14') in 0.018874 seconds 
+  Import took 0.024832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Characters/girl
+  artifactKey: Guid(f74f51253e2c7c346ab11c1ee5a97189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl using Guid(f74f51253e2c7c346ab11c1ee5a97189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e02c3ffebbb5950ec4c31025d581f66') in 0.009241 seconds 
+  Import took 0.015309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3962.409888 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(a1b22bcccfd9ddb4dae69488d44b9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(a1b22bcccfd9ddb4dae69488d44b9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff094b7e98cf199d863c9e32a625840') in 0.007561 seconds 
+  Import took 0.013929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.012657 seconds.
+  path: Assets/Materials/Plane.mat
+  artifactKey: Guid(ed1e4f1add665b2499227b88d68c79d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plane.mat using Guid(ed1e4f1add665b2499227b88d68c79d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0169c990e4495ef79ed228fe8688d37') in 0.046840 seconds 
+  Import took 0.052377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.300580 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbb04b168cd0fcdc9db0b6853b8de65') in 0.167377 seconds 
+  Import took 0.173022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.399978 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7702922c01b7ff588bfc1d0bbdc41cc') in 0.164121 seconds 
+  Import took 0.169705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.613580 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1183e9ead4cd79915fd553cc21e28996') in 0.124064 seconds 
+  Import took 0.131019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.543691 seconds.
+  path: Assets/Characters/girl/girl.mtl
+  artifactKey: Guid(51af379955b5c5543827dc5599f139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/girl.mtl using Guid(51af379955b5c5543827dc5599f139d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f909eae6cdd2b70ca7e7a6c61551e1') in 0.013771 seconds 
+  Import took 0.019135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.210447 seconds.
+  path: Assets/girl.obj
+  artifactKey: Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl.obj using Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccb09747436f7e60156b4f42d71c4fb') in 0.136336 seconds 
+  Import took 0.141258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.569027 seconds.
+  path: Assets/girl.obj
+  artifactKey: Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl.obj using Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea932f8f98573f5650b143877aff415') in 0.117373 seconds 
+  Import took 0.128215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.690198 seconds.
+  path: Assets/girl.obj
+  artifactKey: Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl.obj using Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad8151bd370d364a41a6ae95c9a045a') in 0.118176 seconds 
+  Import took 0.123481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.984627 seconds.
+  path: Assets/Materials/PackedMaterial0.mat
+  artifactKey: Guid(918e1f31c1e423d4980ad3527a2454f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PackedMaterial0.mat using Guid(918e1f31c1e423d4980ad3527a2454f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b66fc76cc7b6aa9bc4402ef26d3e8a') in 0.038443 seconds 
+  Import took 0.044902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Materials/PackedMaterial1.mat
+  artifactKey: Guid(e92acac1b4b2f9249b8d436f5163a0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PackedMaterial1.mat using Guid(e92acac1b4b2f9249b8d436f5163a0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce025a95e17e60acf8a48ae08deea306') in 0.026776 seconds 
+  Import took 0.032946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.606350 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d467d55debcfbbf59422a658d45785a') in 0.130490 seconds 
+  Import took 0.135638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.589858 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e088fc945e9415c62d833d002b63c') in 0.104147 seconds 
+  Import took 0.108854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.194743 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f3fe5536a3c0765de16adcf3060384') in 0.148171 seconds 
+  Import took 0.152575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.196436 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a0d1d19b2af298e66d69de425b35ff') in 0.168419 seconds 
+  Import took 0.173639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.238580 seconds.
+  path: Assets/girl@Running.fbx
+  artifactKey: Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl@Running.fbx using Guid(09c0fa5d2b6dc95429adc82ebb77125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501eefd98e147551ed9f80ff5a585ee9') in 0.150311 seconds 
+  Import took 0.154808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.425282 seconds.
+  path: Assets/Characters/girl/No Name.mat
+  artifactKey: Guid(afb189501db05e2458b0f1de2c018363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/No Name.mat using Guid(afb189501db05e2458b0f1de2c018363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6518e0ff0cb9d74c82feb4109ca87e') in 0.023535 seconds 
+  Import took 0.028186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.848093 seconds.
+  path: Assets/girl_packed0_normal.png
+  artifactKey: Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl_packed0_normal.png using Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb106d839be9e203ca4c6247503d86dd') in 0.053084 seconds 
+  Import took 0.058469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.037422 seconds.
+  path: Assets/girl_packed0_diffuse.png
+  artifactKey: Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl_packed0_diffuse.png using Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7edba4971e256f91e29cf2f3d6a554') in 0.023528 seconds 
+  Import took 0.029199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.056942 seconds.
+  path: Assets/girl_packed0_diffuse.png
+  artifactKey: Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl_packed0_diffuse.png using Guid(c0119d28eda81ed44b141ddfe74f4ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18167a0fa6a67d622f4d6aa8467c9ded') in 0.015726 seconds 
+  Import took 0.019318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.870242 seconds.
+  path: Assets/girl_packed0_normal.png
+  artifactKey: Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl_packed0_normal.png using Guid(403aaa0cdcc6a604a89ef91c3de0fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e30d915664843c6fca8c286a4936e8') in 0.014874 seconds 
+  Import took 0.019960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1260.194825 seconds.
+  path: Assets/girl.obj
+  artifactKey: Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/girl.obj using Guid(60f782b25750a224cb2620b28cf26bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68b69a70cdac8e8d658a297f0e1f9fc') in 0.158516 seconds 
+  Import took 0.168683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.434001 seconds.
+  path: Assets/Characters/girl/PackedMaterial0.mat
+  artifactKey: Guid(178399a66c43e744eaffd23a7b83be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/PackedMaterial0.mat using Guid(178399a66c43e744eaffd23a7b83be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca628a4f6f3769137570e0ec717115b4') in 0.023610 seconds 
+  Import took 0.028539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Characters/girl/PackedMaterial1.mat
+  artifactKey: Guid(9ff158f7323d67043b5b79b30d1f5a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl/PackedMaterial1.mat using Guid(9ff158f7323d67043b5b79b30d1f5a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527b3f2647022ea2668b8a55b53086b6') in 0.020661 seconds 
+  Import took 0.024699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.531965 seconds.
+  path: Assets/Characters/girl.zip
+  artifactKey: Guid(af8db11801a8cf443a364c2c4ca31498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/girl.zip using Guid(af8db11801a8cf443a364c2c4ca31498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359a0534b4c38661f09cfd7432161c4a') in 0.016743 seconds 
+  Import took 0.021610 seconds .
+
